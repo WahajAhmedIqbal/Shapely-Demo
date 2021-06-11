@@ -1,0 +1,14 @@
+.main-box {
+    height: 500px;
+    display: flex;
+}
+.Row {
+    align-items: center;
+}
+.heading {
+    font-weight: 400;
+    font-size: 40px;
+}
+.para {
+    color: gray;
+}
