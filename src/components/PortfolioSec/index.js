@@ -8,7 +8,7 @@ import './portfolioSec.css'
 
 const Portfolio = () => {
     return (
-        <Container className='main-box'>
+        <Container fluid className='portfolio-main'>
             <Row className='Row'>
                 <Col xs={12} sm={12} md={6} lg={6}>
                     <h2 className='heading'>

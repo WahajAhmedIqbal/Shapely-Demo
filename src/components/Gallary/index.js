@@ -9,11 +9,11 @@ import './gallery.css'
 const Gallery = () => {
     return (
         <div>
-            <Row>
-                <Col xs={6} md={4}>
+            {/* <Row> */}
+                {/* <Col xs={6} md={4}> */}
                     <Image src={holder} roundsed />
-                </Col>
-            </Row>
+                {/* </Col> */}
+            {/* </Row> */}
         </div>
 );
 }
