@@ -1,7 +1,7 @@
 import React from 'react';
 
 // import { Container } from 'react-bootstrap';
-import { HeaderComponent, BannerComponent, SeoSectionComponent, PortfolioComponent } from '@components';
+import { HeaderComponent, BannerComponent, SeoSectionComponent, PortfolioComponent, ParallexEffectComponent, GallaryComponent } from '@components';
 
 
 const Home = () => {
@@ -11,6 +11,8 @@ const Home = () => {
            <BannerComponent /> 
            <SeoSectionComponent />
            <PortfolioComponent />
+           <ParallexEffectComponent />
+           <GallaryComponent />
        </div>
     );
 }

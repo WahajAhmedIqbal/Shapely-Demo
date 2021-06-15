@@ -1,3 +1,6 @@
 #responsive-navbar-nav {
     flex-grow: 0;
 }
+Nav {
+    font-weight: 600;
+}

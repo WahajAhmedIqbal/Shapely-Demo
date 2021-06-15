@@ -6,9 +6,9 @@ import './Header.css'
 
 const Header = () => {
     return (
-        <Navbar fixed='top' collapseOnSelect expand="lg"   variant="dark" >
+        <Navbar fixed='top' collapseOnSelect expand="lg"   variant="light" >
         <Container>
-        <Navbar.Brand href="#home">Shapely Demo</Navbar.Brand>
+        <Navbar.Brand href="#home" style={{"fontSize": 37 }}>Shapely Demo</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse  id="responsive-navbar-nav">
           <Nav className="me-auto">

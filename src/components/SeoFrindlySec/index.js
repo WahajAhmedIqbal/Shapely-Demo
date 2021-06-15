@@ -1,7 +1,7 @@
 import React from 'react';
 
 import { Col, Container, Row, Button } from 'react-bootstrap';
-import seoImage from '@asset/2.webp'
+import seoimg from '@asset/2.webp'
 
 import './Seo.css'
 
@@ -10,7 +10,7 @@ const SeoSection = () => {
         <Container className='main-box'>
             <Row className='Row'>
                 <Col xs={12} sm={12} md={6} lg={6}>
-                    <img src={seoImage} alt='Seo Image' style={{ "width": "100%" }} />
+                    <img src={seoimg} alt='Seo' style={{ "width": "100%" }} />
                 </Col>
                 <Col xs={12} sm={12} md={6} lg={6}>
                     <h2 className='heading'>
