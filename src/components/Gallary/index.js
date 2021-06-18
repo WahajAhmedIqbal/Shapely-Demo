@@ -9,11 +9,40 @@ import './gallery.css'
 const Gallery = () => {
     return (
         <div>
-            {/* <Row> */}
-                {/* <Col xs={6} md={4}> */}
-                    <Image src={holder} roundsed />
-                {/* </Col> */}
-            {/* </Row> */}
+            <h3>Our latest Project</h3>
+            <h4>Our latest Project, you love them</h4>
+            <Row>
+                <Col>
+                    <h2>
+                        this is paragraph i need to check
+                    </h2>
+                </Col>
+                <Col>
+                    <h2>
+                        this is paragraph i need to check
+                    </h2>
+                </Col>
+                <Col>
+                    <h2>
+                        this is paragraph i need to check
+                    </h2>
+                </Col>
+                <Col>
+                    <h2>
+                        this is paragraph i need to check
+                    </h2>
+                </Col>
+                <Col>
+                    <h2>
+                        this is paragraph i need to check
+                    </h2>
+                </Col>
+                <Col>
+                    <h2>
+                        this is paragraph i need to check
+                    </h2>
+                </Col>
+            </Row>
         </div>
 );
 }
